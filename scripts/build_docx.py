@@ -134,8 +134,12 @@ def build(path, scale=1.0):
     run(p, C.HEADLINE, size=9.2, bold=True, color=SLATE)
 
     p = doc.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    set_spacing(p, 0, 3, 1.0)
+    set_spacing(p, 0, 2, 1.0)
     run(p, "  |  ".join(C.CONTACT), size=8.9, color=INK)
+
+    p = doc.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    set_spacing(p, 0, 3, 1.0)
+    run(p, C.TARGET_ROLE, size=8.6, bold=True, color=NAVY)
     bottom_border(p)
 
     # ---------------- summary ----------------

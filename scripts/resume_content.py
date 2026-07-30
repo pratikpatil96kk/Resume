@@ -16,10 +16,11 @@ been altered, dropped or invented.
 # --------------------------------------------------------------------------
 NAME = "PRATIK SHINDE"
 
-HEADLINE = (
-    "Mainframe COBOL Developer  |  HP NonStop (Tandem) Developer  |  "
-    "Banking Payment Systems  |  L3 Production Support"
-)
+# Target-role line: states the role being applied for, not a claimed past title.
+TARGET_ROLE = ("Target Roles: Mainframe Developer  |  COBOL Developer  |  Mainframe Application "
+               "Developer  |  Production Support Engineer")
+
+HEADLINE = "Mainframe Software Engineer  |  COBOL  |  HP NonStop"
 
 CONTACT = [
     "pratikshinde1002@gmail.com",
@@ -32,14 +33,16 @@ CONTACT = [
 # PROFESSIONAL SUMMARY
 # --------------------------------------------------------------------------
 SUMMARY = (
-    "Results-driven Mainframe and Enterprise Application Developer with 2.10+ years of experience building, "
-    "enhancing and supporting mission-critical banking and financial services applications at Tata Consultancy "
-    "Services (TCS). Skilled in COBOL, TAL, TACL, TACL Macro, ENFORM, DDL and SQL across HP NonStop (HP Tandem) "
-    "Guardian environments, with exposure to Enscribe, NonStop SQL/MP, TMF, EMS, OSS and the FUP, DBUX and SQLCI "
-    "utilities. Strong in high-volume SWIFT and SEPA payment processing, batch and real-time flows, IBM MQ, "
-    "RabbitMQ and SFTP integration, and Java, Spring Boot and REST API development across distributed banking "
-    "applications. Recognised for L3 production support, incident management, Root Cause Analysis, performance "
-    "optimization and application maintenance and enhancement in Agile Scrum SDLC environments."
+    "Mainframe Software Engineer with 2.10+ years of experience spanning Mainframe Development, "
+    "Application Development, Application Maintenance and Application Enhancement for mission-critical "
+    "banking and financial services applications at Tata Consultancy Services (TCS). "
+    "Skilled in COBOL, TAL, TACL, TACL Macro, ENFORM, DDL, SQL and Shell Scripting across HP NonStop "
+    "(HP Tandem) Guardian and OSS environments, with exposure to Enscribe, NonStop SQL/MP, TMF, EMS and "
+    "the FUP, DBUX and SQLCI utilities. Experienced in high-volume SWIFT and SEPA payment processing, "
+    "batch processing and real-time online transaction processing, Oracle SQL development, and IBM MQ, "
+    "RabbitMQ and SFTP integration. Recognised for L3 production support, incident management, Root Cause "
+    "Analysis, performance optimization and software maintenance that sustain high availability and system "
+    "reliability across enterprise applications, delivered in Agile Scrum SDLC environments."
 )
 
 # --------------------------------------------------------------------------
@@ -54,31 +57,32 @@ EXPERIENCE = [
         "bullets": [
             # 1 :: original -> Java-based payment systems, 99.9% availability
             "Engineered and maintained Java-based payment processing systems handling high-volume banking "
-            "transactions, sustaining 99.9% availability across enterprise banking infrastructure spanning "
-            "HP NonStop (Tandem) and distributed platforms.",
+            "transactions, sustaining 99.9% availability and system reliability across mission-critical "
+            "enterprise banking infrastructure spanning HP NonStop (Tandem) and distributed platforms.",
             # 2 :: original -> SWIFT/SEPA batch + real-time, ~20% reduction
-            "Optimized batch and real-time payment processing flows for SWIFT and SEPA transactions, achieving "
-            "an approximate 20% reduction in processing time through performance tuning and code optimization.",
+            "Optimized batch processing and real-time online transaction processing flows for SWIFT and SEPA "
+            "payments, achieving an approximate 20% reduction in processing time through performance "
+            "optimization and code tuning.",
             # 3 :: original -> L3 support, 30% downtime reduction, RCA
-            "Delivered L3 production support for mission-critical banking applications, resolving critical "
-            "incidents and reducing downtime by 30% through disciplined Root Cause Analysis (RCA), incident "
+            "Delivered L3 production support across mission-critical banking applications, driving incident "
+            "resolution and reducing downtime by 30% through disciplined Root Cause Analysis (RCA), incident "
             "management and corrective action.",
             # 4 :: original -> debugged/enhanced core Java components
-            "Debugged and enhanced core Java components, measurably improving performance, stability and "
-            "maintainability of mission-critical enterprise banking applications under ongoing application "
-            "maintenance and enhancement.",
+            "Debugged and enhanced core application components, measurably improving performance, stability "
+            "and maintainability of enterprise banking systems under continuous application maintenance, "
+            "software maintenance and enhancement.",
             # 5 :: original -> reconciliation & settlement modules
-            "Designed and implemented reconciliation and settlement modules, ensuring accurate financial reporting "
-            "and full compliance with banking regulatory standards.",
+            "Designed and implemented reconciliation and settlement modules, ensuring accurate financial "
+            "reporting and full compliance with banking regulatory standards.",
             # 6 :: original -> IBM MQ + SFTP integration
-            "Integrated IBM MQ and SFTP interfaces enabling secure, reliable and efficient data exchange across "
-            "distributed enterprise banking platforms.",
+            "Integrated IBM MQ and SFTP interfaces enabling secure file processing and reliable data exchange "
+            "across distributed enterprise banking platforms.",
             # 7 :: original -> Agile Scrum collaboration
-            "Collaborated with cross-functional teams in an Agile Scrum environment to deliver on-time releases, "
-            "manage sprint deliverables and align delivery with business objectives.",
+            "Collaborated with cross-functional teams in an Agile Scrum environment to deliver on-time "
+            "releases, manage sprint deliverables and align delivery with business objectives across the SDLC.",
             # 8 :: original -> code reviews, testing, CI/CD
-            "Contributed to code reviews, unit testing, system testing and CI/CD pipeline execution to uphold "
-            "code quality standards and accelerate deployment cycles across the SDLC.",
+            "Contributed to code reviews, unit testing, system testing and CI/CD pipeline execution, upholding "
+            "code quality standards and providing deployment support that accelerated release cycles.",
         ],
     }
 ]
@@ -115,26 +119,28 @@ PROJECTS = [
 # --------------------------------------------------------------------------
 SKILLS = [
     ("Programming Languages",
-     "Java, COBOL, TAL, TACL, TACL Macro, ENFORM, DDL, SQL, Shell Scripting, Python, HTML, CSS, JavaScript"),
+     "COBOL, TAL, TACL, TACL Macro, ENFORM, DDL, SQL, Shell Scripting, Java, Python, HTML, CSS, JavaScript"),
     ("Mainframe Technologies",
-     "HP NonStop, HP Tandem, Guardian, Enscribe, SQL/MP, NonStop SQL, TMF, EMS, OSS"),
-    ("Mainframe Utilities",
+     "HP NonStop, HP Tandem, Guardian, OSS, SQL/MP, NonStop SQL, Enscribe, TMF, EMS"),
+    ("Utilities",
      "FUP, DBUX, ENSCRIBE, SQLCI"),
     ("Environment / Platforms",
-     "HP TANDEM, HP NONSTOP, CAIL NODES, RMS, SFTP, RabbitMQ, IBM MQ"),
-    ("Backend & Integration",
-     "Java 8 (Collections, Streams API, Lambda, Functional Interfaces, Exception Handling, Concurrency), "
-     "Spring Boot, REST APIs, Microservices, Hibernate, JPA, Apache Kafka, IBM MQ, RabbitMQ, SFTP, "
-     "Event-Driven Architecture, Spring Security, JWT Authentication, OAuth"),
+     "HP TANDEM, HP NONSTOP, CAIL NODES, RMS, OSS"),
+    ("Messaging & Integration",
+     "IBM MQ, RabbitMQ, SFTP, FTP, Apache Kafka, REST APIs, Event-Driven Architecture"),
     ("Databases",
-     "Oracle SQL, PostgreSQL, SQL, Database Optimization"),
+     "SQL, Oracle SQL, PostgreSQL, Database Optimization"),
+    ("Backend & Application Development",
+     "Java 8 (Collections, Streams API, Lambda, Functional Interfaces, Exception Handling, Concurrency), "
+     "Spring Boot, Microservices, Hibernate, JPA, Spring Security, JWT Authentication, OAuth"),
     ("Testing",
      "JUnit, Mockito"),
-    ("DevOps & CI/CD",
-     "Git, Bitbucket, Maven, Jenkins, Docker, CI/CD Pipelines"),
+    ("DevOps & Version Control",
+     "Git, Bitbucket, Jenkins, Docker, Maven, CI/CD"),
     ("Methodologies & Tools",
-     "Agile Scrum, JIRA, IntelliJ IDEA, Root Cause Analysis (RCA), Production Support, L3 Production Support, "
-     "Incident Management, Application Monitoring, Software Development Life Cycle (SDLC), Change Management"),
+     "Agile Scrum, JIRA, IntelliJ IDEA, Software Development Life Cycle (SDLC), Incident Management, "
+     "Problem Management, Change Management, Production Support, L3 Production Support, Root Cause Analysis "
+     "(RCA), Application Monitoring, Performance Optimization"),
 ]
 
 # --------------------------------------------------------------------------

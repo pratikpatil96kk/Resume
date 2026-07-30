@@ -179,6 +179,16 @@ new_nums = sorted(n for n in nums_out - nums_orig)
 print(f"  Numeric tokens in new resume absent from original: "
       f"{new_nums if new_nums else 'NONE'}")
 
+# z/OS technologies must NOT appear unless they were in the original resume
+ZOS = ["cics", "jcl", "db2", "vsam", "ims", "endevor", "changeman", "tso", "ispf",
+       "rexx", "easytrieve", "assembler", "roscoe", "xpediter", "file-aid"]
+zos_bad = [t for t in ZOS
+           if any(re.search(r"(?<![a-z0-9])" + re.escape(t) + r"(?![a-z0-9])", v)
+                  for v in OUT.values())
+           and not re.search(r"(?<![a-z0-9])" + re.escape(t) + r"(?![a-z0-9])", orig)]
+print(f"  IBM z/OS tech wrongly introduced (CICS/JCL/DB2/VSAM/IMS/...): "
+      f"{zos_bad if zos_bad else 'NONE'}")
+
 ORG_WORDS = ["tata consultancy", "tcs", "dr. d y patil", "dr. babasaheb ambedkar"]
 extra_orgs = []
 print(f"  Employers/institutions in output: all traceable to original -> "
@@ -189,4 +199,4 @@ print("=" * 78)
 print(f"RESULT: {len(ok)} structure checks passed, {len(fail)} failed; "
       f"{len(FACTS)-bad}/{len(FACTS)} facts intact.")
 print("=" * 78)
-sys.exit(1 if (fail or bad or missing or new_nums) else 0)
+sys.exit(1 if (fail or bad or missing or new_nums or zos_bad) else 0)

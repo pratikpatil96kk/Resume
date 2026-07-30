@@ -1,42 +1,46 @@
 PRATIK SHINDE
-Mainframe COBOL Developer | HP NonStop (Tandem) Developer | Banking Payment Systems | L3 Production Support
+Mainframe Software Engineer | COBOL | HP NonStop
 pratikshinde1002@gmail.com | +91-7507444969 | Chhatrapati Sambhajinagar, Maharashtra, India | linkedin.com/in/pratik-shinde-a113b3220
+Target Roles: Mainframe Developer | COBOL Developer | Mainframe Application Developer | Production Support Engineer
 
 PROFESSIONAL SUMMARY
 ====================
-Results-driven Mainframe and Enterprise Application Developer with 2.10+ years of experience
-building, enhancing and supporting mission-critical banking and financial services applications at
-Tata Consultancy Services (TCS). Skilled in COBOL, TAL, TACL, TACL Macro, ENFORM, DDL and SQL
-across HP NonStop (HP Tandem) Guardian environments, with exposure to Enscribe, NonStop SQL/MP,
-TMF, EMS, OSS and the FUP, DBUX and SQLCI utilities. Strong in high-volume SWIFT and SEPA payment
-processing, batch and real-time flows, IBM MQ, RabbitMQ and SFTP integration, and Java, Spring
-Boot and REST API development across distributed banking applications. Recognised for L3
-production support, incident management, Root Cause Analysis, performance optimization and
-application maintenance and enhancement in Agile Scrum SDLC environments.
+Mainframe Software Engineer with 2.10+ years of experience spanning Mainframe Development,
+Application Development, Application Maintenance and Application Enhancement for mission-critical
+banking and financial services applications at Tata Consultancy Services (TCS). Skilled in COBOL,
+TAL, TACL, TACL Macro, ENFORM, DDL, SQL and Shell Scripting across HP NonStop (HP Tandem) Guardian
+and OSS environments, with exposure to Enscribe, NonStop SQL/MP, TMF, EMS and the FUP, DBUX and
+SQLCI utilities. Experienced in high-volume SWIFT and SEPA payment processing, batch processing
+and real-time online transaction processing, Oracle SQL development, and IBM MQ, RabbitMQ and SFTP
+integration. Recognised for L3 production support, incident management, Root Cause Analysis,
+performance optimization and software maintenance that sustain high availability and system
+reliability across enterprise applications, delivered in Agile Scrum SDLC environments.
 
 PROFESSIONAL EXPERIENCE
 =======================
 Systems Engineer | Tata Consultancy Services (TCS) | Thane, India | Sep 2023 - Present
 - Engineered and maintained Java-based payment processing systems handling high-volume banking
-  transactions, sustaining 99.9% availability across enterprise banking infrastructure spanning HP
-  NonStop (Tandem) and distributed platforms.
-- Optimized batch and real-time payment processing flows for SWIFT and SEPA transactions,
-  achieving an approximate 20% reduction in processing time through performance tuning and code
-  optimization.
-- Delivered L3 production support for mission-critical banking applications, resolving critical
-  incidents and reducing downtime by 30% through disciplined Root Cause Analysis (RCA), incident
+  transactions, sustaining 99.9% availability and system reliability across mission-critical
+  enterprise banking infrastructure spanning HP NonStop (Tandem) and distributed platforms.
+- Optimized batch processing and real-time online transaction processing flows for SWIFT and SEPA
+  payments, achieving an approximate 20% reduction in processing time through performance
+  optimization and code tuning.
+- Delivered L3 production support across mission-critical banking applications, driving incident
+  resolution and reducing downtime by 30% through disciplined Root Cause Analysis (RCA), incident
   management and corrective action.
-- Debugged and enhanced core Java components, measurably improving performance, stability and
-  maintainability of mission-critical enterprise banking applications under ongoing application
-  maintenance and enhancement.
+- Debugged and enhanced core application components, measurably improving performance, stability
+  and maintainability of enterprise banking systems under continuous application maintenance,
+  software maintenance and enhancement.
 - Designed and implemented reconciliation and settlement modules, ensuring accurate financial
   reporting and full compliance with banking regulatory standards.
-- Integrated IBM MQ and SFTP interfaces enabling secure, reliable and efficient data exchange
+- Integrated IBM MQ and SFTP interfaces enabling secure file processing and reliable data exchange
   across distributed enterprise banking platforms.
 - Collaborated with cross-functional teams in an Agile Scrum environment to deliver on-time
-  releases, manage sprint deliverables and align delivery with business objectives.
-- Contributed to code reviews, unit testing, system testing and CI/CD pipeline execution to uphold
-  code quality standards and accelerate deployment cycles across the SDLC.
+  releases, manage sprint deliverables and align delivery with business objectives across the
+  SDLC.
+- Contributed to code reviews, unit testing, system testing and CI/CD pipeline execution,
+  upholding code quality standards and providing deployment support that accelerated release
+  cycles.
 
 KEY PROJECTS
 ============
@@ -55,22 +59,23 @@ KEY PROJECTS
 
 TECHNICAL SKILLS
 ================
-- Programming Languages: Java, COBOL, TAL, TACL, TACL Macro, ENFORM, DDL, SQL, Shell Scripting,
+- Programming Languages: COBOL, TAL, TACL, TACL Macro, ENFORM, DDL, SQL, Shell Scripting, Java,
   Python, HTML, CSS, JavaScript
-- Mainframe Technologies: HP NonStop, HP Tandem, Guardian, Enscribe, SQL/MP, NonStop SQL, TMF,
-  EMS, OSS
-- Mainframe Utilities: FUP, DBUX, ENSCRIBE, SQLCI
-- Environment / Platforms: HP TANDEM, HP NONSTOP, CAIL NODES, RMS, SFTP, RabbitMQ, IBM MQ
-- Backend & Integration: Java 8 (Collections, Streams API, Lambda, Functional Interfaces,
-  Exception Handling, Concurrency), Spring Boot, REST APIs, Microservices, Hibernate, JPA, Apache
-  Kafka, IBM MQ, RabbitMQ, SFTP, Event-Driven Architecture, Spring Security, JWT Authentication,
-  OAuth
-- Databases: Oracle SQL, PostgreSQL, SQL, Database Optimization
+- Mainframe Technologies: HP NonStop, HP Tandem, Guardian, OSS, SQL/MP, NonStop SQL, Enscribe,
+  TMF, EMS
+- Utilities: FUP, DBUX, ENSCRIBE, SQLCI
+- Environment / Platforms: HP TANDEM, HP NONSTOP, CAIL NODES, RMS, OSS
+- Messaging & Integration: IBM MQ, RabbitMQ, SFTP, FTP, Apache Kafka, REST APIs, Event-Driven
+  Architecture
+- Databases: SQL, Oracle SQL, PostgreSQL, Database Optimization
+- Backend & Application Development: Java 8 (Collections, Streams API, Lambda, Functional
+  Interfaces, Exception Handling, Concurrency), Spring Boot, Microservices, Hibernate, JPA, Spring
+  Security, JWT Authentication, OAuth
 - Testing: JUnit, Mockito
-- DevOps & CI/CD: Git, Bitbucket, Maven, Jenkins, Docker, CI/CD Pipelines
-- Methodologies & Tools: Agile Scrum, JIRA, IntelliJ IDEA, Root Cause Analysis (RCA), Production
-  Support, L3 Production Support, Incident Management, Application Monitoring, Software
-  Development Life Cycle (SDLC), Change Management
+- DevOps & Version Control: Git, Bitbucket, Jenkins, Docker, Maven, CI/CD
+- Methodologies & Tools: Agile Scrum, JIRA, IntelliJ IDEA, Software Development Life Cycle (SDLC),
+  Incident Management, Problem Management, Change Management, Production Support, L3 Production
+  Support, Root Cause Analysis (RCA), Application Monitoring, Performance Optimization
 
 ACHIEVEMENTS
 ============

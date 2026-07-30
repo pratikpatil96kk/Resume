@@ -164,7 +164,7 @@ def build(path, s=1.0):
     TM = 10.6 * mm
     BM = 9.0 * mm
 
-    body = 9.35 * s
+    body = max(9.35 * s, 8.05)
     lead = body * 1.26
 
     st_sum = ParagraphStyle("sum", fontName="SS", fontSize=body, leading=lead,
@@ -184,7 +184,11 @@ def build(path, s=1.0):
                             leftIndent=9.6 * s, bulletIndent=0,
                             bulletFontName="SS", bulletFontSize=body,
                             spaceAfter=1.95 * s)
-    st_meta = ParagraphStyle("meta", fontName="SS-It", fontSize=body * 0.985,
+    def f8(v):
+        """Clamp a scaled font size to an 8pt ATS-readability floor."""
+        return max(v, 8.05)
+
+    st_meta = ParagraphStyle("meta", fontName="SS-It", fontSize=max(body * 0.985, 8.05),
                              leading=lead * 0.96, textColor=SLATE)
 
     F = []
@@ -193,11 +197,14 @@ def build(path, s=1.0):
     F.append(TrackedText(C.NAME, "SS-Bk", 21.4 * s, tracking=2.05 * s,
                          color=NAVY, align="center", leading=22.6 * s))
     F.append(Spacer(1, 2.6 * s))
-    F.append(TrackedText(C.HEADLINE, "SS-Sb", 9.15 * s, tracking=0.24 * s,
+    F.append(TrackedText(C.HEADLINE, "SS-Sb", f8(9.25 * s), tracking=0.24 * s,
                          color=SLATE, align="center", leading=10.6 * s))
     F.append(Spacer(1, 2.9 * s))
-    F.append(TrackedText("  |  ".join(C.CONTACT), "SS", 8.85 * s, tracking=0.06 * s,
+    F.append(TrackedText("  |  ".join(C.CONTACT), "SS", f8(8.95 * s), tracking=0.06 * s,
                          color=INK, align="center", leading=10.2 * s))
+    F.append(Spacer(1, 2.4 * s))
+    F.append(TrackedText(C.TARGET_ROLE, "SS-Sb", f8(8.9 * s), tracking=0.10 * s,
+                         color=NAVY, align="center", leading=9.8 * s))
     F.append(HeaderRule(0, 4.4 * s, width=1.15))
 
     def heading(t, first=False):
@@ -276,6 +283,15 @@ def pages(path):
     return len(PdfReader(path).pages)
 
 
+def min_font_pt(path):
+    """Smallest rendered glyph size - ATS parsers penalise anything under 8pt."""
+    import fitz
+    pg = fitz.open(path)[0]
+    return min(round(sp["size"], 2)
+               for b in pg.get_text("dict")["blocks"] if b.get("lines")
+               for l in b["lines"] for sp in l["spans"])
+
+
 if __name__ == "__main__":
     out = sys.argv[1] if len(sys.argv) > 1 else "Pratik_Shinde_Mainframe_COBOL_Developer_Resume.pdf"
     lo, hi, best = 0.80, 1.16, None
@@ -291,4 +307,4 @@ if __name__ == "__main__":
     if best is None:
         best = 0.80
     build(out, best)
-    print(f"scale={best:.4f}  pages={pages(out)}  -> {out}")
+    print(f"scale={best:.4f}  pages={pages(out)}  min_font={min_font_pt(out)}pt  -> {out}")

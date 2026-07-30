@@ -24,6 +24,7 @@ def main(path):
     L.append(C.NAME)
     L.append(C.HEADLINE.replace("  |  ", " | "))
     L.append(" | ".join(C.CONTACT))
+    L.append(C.TARGET_ROLE.replace("  |  ", " | "))
     L.append("")
 
     def head(t):
