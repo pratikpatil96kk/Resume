@@ -172,14 +172,17 @@ def build(path, s=1.0):
     st_bul = ParagraphStyle("bul", fontName="SS", fontSize=body, leading=lead,
                             textColor=INK, alignment=TA_JUSTIFY,
                             leftIndent=9.6 * s, bulletIndent=0,
+                            bulletFontName="SS", bulletFontSize=body,
                             spaceAfter=2.35 * s)
     st_prj = ParagraphStyle("prj", fontName="SS", fontSize=body, leading=lead,
                             textColor=INK, alignment=TA_JUSTIFY,
                             leftIndent=9.6 * s, bulletIndent=0,
+                            bulletFontName="SS", bulletFontSize=body,
                             spaceAfter=2.7 * s)
     st_skl = ParagraphStyle("skl", fontName="SS", fontSize=body, leading=lead * 0.985,
                             textColor=INK, alignment=TA_LEFT,
                             leftIndent=9.6 * s, bulletIndent=0,
+                            bulletFontName="SS", bulletFontSize=body,
                             spaceAfter=1.95 * s)
     st_meta = ParagraphStyle("meta", fontName="SS-It", fontSize=body * 0.985,
                              leading=lead * 0.96, textColor=SLATE)
