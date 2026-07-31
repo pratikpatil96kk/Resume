@@ -13,8 +13,8 @@ and OSS environments, with exposure to Enscribe, NonStop SQL/MP, TMF, EMS and th
 SQLCI utilities. Experienced in high-volume SWIFT and SEPA payment processing, batch processing
 and real-time online transaction processing, Oracle SQL development, and IBM MQ, RabbitMQ and SFTP
 integration. Recognised for L3 production support, incident management, Root Cause Analysis,
-performance optimization and software maintenance that sustain high availability and system
-reliability across enterprise applications, delivered in Agile Scrum SDLC environments.
+performance tuning and software maintenance that sustain high availability and system reliability
+across fault-tolerant enterprise applications, delivered in Agile Scrum SDLC environments.
 
 PROFESSIONAL EXPERIENCE
 =======================
@@ -23,14 +23,14 @@ Systems Engineer | Tata Consultancy Services (TCS) | Thane, India | Sep 2023 - P
   transactions, sustaining 99.9% availability and system reliability across mission-critical
   enterprise banking infrastructure spanning HP NonStop (Tandem) and distributed platforms.
 - Optimized batch processing and real-time online transaction processing flows for SWIFT and SEPA
-  payments, achieving an approximate 20% reduction in processing time through performance
-  optimization and code tuning.
-- Delivered L3 production support across mission-critical banking applications, driving incident
-  resolution and reducing downtime by 30% through disciplined Root Cause Analysis (RCA), incident
-  management and corrective action.
-- Debugged and enhanced core application components, measurably improving performance, stability
-  and maintainability of enterprise banking systems under continuous application maintenance,
-  software maintenance and enhancement.
+  payments, achieving an approximate 20% reduction in processing time through performance tuning,
+  code optimization and SQL query optimization.
+- Delivered L3 production support across mission-critical, fault-tolerant banking applications,
+  troubleshooting and diagnosing critical incidents and reducing downtime by 30% through
+  disciplined Root Cause Analysis (RCA), incident management and corrective action.
+- Debugged and enhanced core application components, applying systematic debugging and performance
+  tuning to improve stability and maintainability of enterprise banking systems under continuous
+  application maintenance, software maintenance and enhancement.
 - Designed and implemented reconciliation and settlement modules, ensuring accurate financial
   reporting and full compliance with banking regulatory standards.
 - Integrated IBM MQ and SFTP interfaces enabling secure file processing and reliable data exchange
@@ -38,9 +38,9 @@ Systems Engineer | Tata Consultancy Services (TCS) | Thane, India | Sep 2023 - P
 - Collaborated with cross-functional teams in an Agile Scrum environment to deliver on-time
   releases, manage sprint deliverables and align delivery with business objectives across the
   SDLC.
-- Contributed to code reviews, unit testing, system testing and CI/CD pipeline execution,
-  upholding code quality standards and providing deployment support that accelerated release
-  cycles.
+- Contributed to peer code review, unit testing, system testing and CI/CD pipeline execution,
+  upholding code quality standards and providing deployment support and technical documentation
+  that accelerated release cycles.
 
 KEY PROJECTS
 ============
@@ -75,7 +75,10 @@ TECHNICAL SKILLS
 - DevOps & Version Control: Git, Bitbucket, Jenkins, Docker, Maven, CI/CD
 - Methodologies & Tools: Agile Scrum, JIRA, IntelliJ IDEA, Software Development Life Cycle (SDLC),
   Incident Management, Problem Management, Change Management, Production Support, L3 Production
-  Support, Root Cause Analysis (RCA), Application Monitoring, Performance Optimization
+  Support, Root Cause Analysis (RCA), Application Monitoring, Performance Optimization,
+  Performance Tuning, Troubleshooting, Debugging, SLA Management, Incident Escalation, Code
+  Review, Technical Documentation, Stakeholder Communication, High Availability, Fault-Tolerant
+  Systems
 
 ACHIEVEMENTS
 ============

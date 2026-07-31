@@ -41,8 +41,8 @@ SUMMARY = (
     "the FUP, DBUX and SQLCI utilities. Experienced in high-volume SWIFT and SEPA payment processing, "
     "batch processing and real-time online transaction processing, Oracle SQL development, and IBM MQ, "
     "RabbitMQ and SFTP integration. Recognised for L3 production support, incident management, Root Cause "
-    "Analysis, performance optimization and software maintenance that sustain high availability and system "
-    "reliability across enterprise applications, delivered in Agile Scrum SDLC environments."
+    "Analysis, performance tuning and software maintenance that sustain high availability and system "
+    "reliability across fault-tolerant enterprise applications, delivered in Agile Scrum SDLC environments."
 )
 
 # --------------------------------------------------------------------------
@@ -61,16 +61,16 @@ EXPERIENCE = [
             "enterprise banking infrastructure spanning HP NonStop (Tandem) and distributed platforms.",
             # 2 :: original -> SWIFT/SEPA batch + real-time, ~20% reduction
             "Optimized batch processing and real-time online transaction processing flows for SWIFT and SEPA "
-            "payments, achieving an approximate 20% reduction in processing time through performance "
-            "optimization and code tuning.",
+            "payments, achieving an approximate 20% reduction in processing time through performance tuning, "
+            "code optimization and SQL query optimization.",
             # 3 :: original -> L3 support, 30% downtime reduction, RCA
-            "Delivered L3 production support across mission-critical banking applications, driving incident "
-            "resolution and reducing downtime by 30% through disciplined Root Cause Analysis (RCA), incident "
-            "management and corrective action.",
+            "Delivered L3 production support across mission-critical, fault-tolerant banking applications, "
+            "troubleshooting and diagnosing critical incidents and reducing downtime by 30% through disciplined "
+            "Root Cause Analysis (RCA), incident management and corrective action.",
             # 4 :: original -> debugged/enhanced core Java components
-            "Debugged and enhanced core application components, measurably improving performance, stability "
-            "and maintainability of enterprise banking systems under continuous application maintenance, "
-            "software maintenance and enhancement.",
+            "Debugged and enhanced core application components, applying systematic debugging and performance "
+            "tuning to improve stability and maintainability of enterprise banking systems under continuous "
+            "application maintenance, software maintenance and enhancement.",
             # 5 :: original -> reconciliation & settlement modules
             "Designed and implemented reconciliation and settlement modules, ensuring accurate financial "
             "reporting and full compliance with banking regulatory standards.",
@@ -81,8 +81,9 @@ EXPERIENCE = [
             "Collaborated with cross-functional teams in an Agile Scrum environment to deliver on-time "
             "releases, manage sprint deliverables and align delivery with business objectives across the SDLC.",
             # 8 :: original -> code reviews, testing, CI/CD
-            "Contributed to code reviews, unit testing, system testing and CI/CD pipeline execution, upholding "
-            "code quality standards and providing deployment support that accelerated release cycles.",
+            "Contributed to peer code review, unit testing, system testing and CI/CD pipeline execution, "
+            "upholding code quality standards and providing deployment support and technical documentation "
+            "that accelerated release cycles.",
         ],
     }
 ]
@@ -140,7 +141,9 @@ SKILLS = [
     ("Methodologies & Tools",
      "Agile Scrum, JIRA, IntelliJ IDEA, Software Development Life Cycle (SDLC), Incident Management, "
      "Problem Management, Change Management, Production Support, L3 Production Support, Root Cause Analysis "
-     "(RCA), Application Monitoring, Performance Optimization"),
+     "(RCA), Application Monitoring, Performance Optimization, Performance Tuning, Troubleshooting, "
+     "Debugging, SLA Management, Incident Escalation, Code Review, Technical Documentation, "
+     "Stakeholder Communication, High Availability, Fault-Tolerant Systems"),
 ]
 
 # --------------------------------------------------------------------------
