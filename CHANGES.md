@@ -166,3 +166,49 @@ Ranked by how often they appear in live HP NonStop / Tandem COBOL postings:
 **Tier 4 — general:** C / C++
 
 Adding Pathway + SCOBOL alone would lift the Barclays-style match from ~76% to ~85%.
+
+
+---
+
+# Revision 4 — Pathway, SCOBOL and SQL/MX added (user-confirmed hands-on)
+
+You confirmed hands-on **development** experience with HP NonStop **Pathway**,
+**SCOBOL (Screen COBOL)** and **SQL/MX** at TCS. Because the depth is
+development (not just exposure), these are placed in the experience bullets,
+not only in the skills list.
+
+| Location | Wording |
+|---|---|
+| Summary | "...developing Pathway server and batch programs against Enscribe, NonStop SQL/MP and SQL/MX databases..." |
+| Bullet 1 | "...developing HP NonStop (Tandem) Pathway server and batch programs alongside Java components..." |
+| Bullet 2 | "...NonStop SQL/MP and SQL/MX query optimization." |
+| Bullet 4 | "...including SCOBOL (Screen COBOL) programs and Pathway serverclasses..." |
+| Skills | `Programming Languages` gains SCOBOL (Screen COBOL); `Mainframe Technologies` gains Pathway and SQL/MX |
+
+**Not added:** PATHCOM, SCF, Peruse, Spooler, BATCHCOM, Expand, Measure, Inspect,
+BASE24, ISO 8583, EMV. You did not confirm these, so they remain on the future list.
+
+## Job-match impact
+
+| Posting | Rev 3 | Rev 4 |
+|---|---|---|
+| Sr TAL/COBOL/TACL — Insight Global | 93% | **98%** |
+| HP NonStop Production Support (L2/L3) | 95% | **95%** |
+| Tandem COBOL — FIS Pune | 83% | **90%** |
+| HP NonStop Senior Dev — Barclays Pune | 83% | **89%** |
+| Mainframe COBOL — IBM z/OS | 47% | 47% (correctly excluded) |
+| **Average** | 79% | **84%** |
+
+Format / parse-rate score remains **100%**.
+
+## Interview readiness
+
+These three are now load-bearing claims in your experience section. Expect to be
+asked, and be ready with specifics:
+
+- **Pathway** — serverclass config (MAXSERVERS/MAXLINKS), TCP vs serverclass, how
+  you scaled or debugged a serverclass, LINKMON behaviour.
+- **SCOBOL** — requester/server split, how SCOBOL requesters talk to Pathway servers,
+  screen field validation, PATHCOM SET SERVER usage.
+- **SQL/MX vs SQL/MP** — why a shop runs both, catalog/schema differences, how you
+  tuned a specific query, EXPLAIN plan reading.

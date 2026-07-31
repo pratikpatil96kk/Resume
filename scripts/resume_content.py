@@ -36,9 +36,10 @@ SUMMARY = (
     "Mainframe Software Engineer with 2.10+ years of experience spanning Mainframe Development, "
     "Application Development, Application Maintenance and Application Enhancement for mission-critical "
     "banking and financial services applications at Tata Consultancy Services (TCS). "
-    "Skilled in COBOL, TAL, TACL, TACL Macro, ENFORM, DDL, SQL and Shell Scripting across HP NonStop "
-    "(HP Tandem) Guardian and OSS environments, with exposure to Enscribe, NonStop SQL/MP, TMF, EMS and "
-    "the FUP, DBUX and SQLCI utilities. Experienced in high-volume SWIFT and SEPA payment processing, "
+    "Skilled in COBOL, SCOBOL (Screen COBOL), TAL, TACL, TACL Macro, ENFORM, DDL, SQL and Shell "
+    "Scripting across HP NonStop (HP Tandem) Guardian and OSS environments, developing Pathway server "
+    "and batch programs against Enscribe, NonStop SQL/MP and SQL/MX databases using TMF, EMS and the "
+    "FUP, DBUX and SQLCI utilities. Experienced in high-volume SWIFT and SEPA payment processing, "
     "batch processing and real-time online transaction processing, Oracle SQL development, and IBM MQ, "
     "RabbitMQ and SFTP integration. Recognised for L3 production support, incident management, Root Cause "
     "Analysis, performance tuning and software maintenance that sustain high availability and system "
@@ -56,21 +57,21 @@ EXPERIENCE = [
         "dates": "Sep 2023 \u2013 Present",
         "bullets": [
             # 1 :: original -> Java-based payment systems, 99.9% availability
-            "Engineered and maintained Java-based payment processing systems handling high-volume banking "
-            "transactions, sustaining 99.9% availability and system reliability across mission-critical "
-            "enterprise banking infrastructure spanning HP NonStop (Tandem) and distributed platforms.",
+            "Engineered and maintained payment processing systems handling high-volume banking transactions, "
+            "developing HP NonStop (Tandem) Pathway server and batch programs alongside Java components to "
+            "sustain 99.9% availability and system reliability across mission-critical banking infrastructure.",
             # 2 :: original -> SWIFT/SEPA batch + real-time, ~20% reduction
             "Optimized batch processing and real-time online transaction processing flows for SWIFT and SEPA "
             "payments, achieving an approximate 20% reduction in processing time through performance tuning, "
-            "code optimization and SQL query optimization.",
+            "code optimization and NonStop SQL/MP and SQL/MX query optimization.",
             # 3 :: original -> L3 support, 30% downtime reduction, RCA
             "Delivered L3 production support across mission-critical, fault-tolerant banking applications, "
             "troubleshooting and diagnosing critical incidents and reducing downtime by 30% through disciplined "
             "Root Cause Analysis (RCA), incident management and corrective action.",
             # 4 :: original -> debugged/enhanced core Java components
-            "Debugged and enhanced core application components, applying systematic debugging and performance "
-            "tuning to improve stability and maintainability of enterprise banking systems under continuous "
-            "application maintenance, software maintenance and enhancement.",
+            "Debugged and enhanced core application components, including SCOBOL (Screen COBOL) programs and "
+            "Pathway serverclasses, applying systematic debugging and performance tuning to improve stability "
+            "and maintainability of enterprise banking systems under continuous application maintenance.",
             # 5 :: original -> reconciliation & settlement modules
             "Designed and implemented reconciliation and settlement modules, ensuring accurate financial "
             "reporting and full compliance with banking regulatory standards.",
@@ -120,9 +121,10 @@ PROJECTS = [
 # --------------------------------------------------------------------------
 SKILLS = [
     ("Programming Languages",
-     "COBOL, TAL, TACL, TACL Macro, ENFORM, DDL, SQL, Shell Scripting, Java, Python, HTML, CSS, JavaScript"),
+     "COBOL, SCOBOL (Screen COBOL), TAL, TACL, TACL Macro, ENFORM, DDL, SQL, Shell Scripting, Java, "
+     "Python, HTML, CSS, JavaScript"),
     ("Mainframe Technologies",
-     "HP NonStop, HP Tandem, Guardian, OSS, SQL/MP, NonStop SQL, Enscribe, TMF, EMS"),
+     "HP NonStop, HP Tandem, Guardian, OSS, Pathway, SQL/MP, SQL/MX, NonStop SQL, Enscribe, TMF, EMS"),
     ("Utilities",
      "FUP, DBUX, ENSCRIBE, SQLCI"),
     ("Environment / Platforms",
